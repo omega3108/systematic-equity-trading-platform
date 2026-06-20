@@ -14,7 +14,20 @@ This project demonstrates the design and implementation of a production-oriented
 
 ---
 
-## Technology Stack
+## Key Metrics
+
+| Metric | Value |
+|:---|:---|
+| **Asset Class** | NSE Cash Equity |
+| **Strategy Type** | Multi-Factor Momentum |
+| **Deployment** | AWS EC2 |
+| **Database** | SQLite |
+| **Reporting** | PDF, Email, Telegram |
+| **Execution** | Broker API + GTT Controls |
+
+---
+
+## Technology & Infrastructure
 
 | Category | Technologies |
 |:---|:---|
@@ -466,6 +479,19 @@ python src/run_backtest_1L.py
     ```bash
     python src/reporting_service.py
     ```
+
+---
+
+## Project Impact
+
+This project demonstrates:
+*   **Quantitative Factor Research**: Developing risk-adjusted momentum and trend quality filters based on historical price behaviors.
+*   **Portfolio Construction Methodologies**: Structuring capital allocation policies with equal-weight and concentration controls.
+*   **Systematic Risk Management**: Designing and deploying trailing stop-loss mechanisms, profit target scale-outs, and regime filters.
+*   **Historical Strategy Validation**: Modeling transaction costs, slippage, and taxes to estimate net backtest performance.
+*   **Production-Grade Automation**: Building scheduled cron executors that fetch datasets, parse signals, and perform updates.
+*   **Database-Backed State Synchronization**: Implementing auto-reconciliation of portfolios to prevent database state drift.
+*   **Cloud Deployment & Monitoring**: Deploying VM microservices on AWS EC2 with real-time error alert channels.
 
 ---
 
