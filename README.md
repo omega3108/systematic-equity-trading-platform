@@ -2,7 +2,7 @@
 
 > Quantitative Research • Portfolio Construction • Risk Management • Automated Reporting
 
-![Platform Dashboard Banner](assets/dashboard_mockup.png)
+![Strategy Backtest Cumulative Returns](assets/cumulative_returns.png)
 
 > **Project Scope:** This project was developed as an independent quantitative finance and software engineering initiative focused on systematic investing in Indian equity markets.
 
@@ -209,10 +209,13 @@ To avoid execution slippage, the system evaluates opening gaps on execution day.
 
 The platform's underlying strategy was validated through rigorous backtesting and quantitative research:
 *   **Historical Walk-Forward Testing**: Evaluated performance using historical price datasets, avoiding look-ahead bias by executing rebalances strictly on subsequent open prices.
+    ![Strategy Backtest Cumulative Returns](assets/cumulative_returns.png)
 *   **Transaction Cost Modeling**: Accounted for real-world slippage and regulatory friction (STT, DP charges, GST, exchange fees) to estimate true net returns.
 *   **Regime-Aware Evaluation**: Validated the effectiveness of the market regime filter in reducing portfolio drawdown during major historical market corrections.
+    ![Strategy Drawdown Profile](assets/underwater_drawdown.png)
 *   **Portfolio Attribution Analysis**: Assessed factor performance contributions (VARS, MRS, TQS) to identify return drivers.
 *   **Risk-Adjusted Performance Measurement**: Measured portfolio efficiency using Sharpe and Sortino ratios, comparing the results against a benchmark Buy & Hold strategy.
+    ![Monthly Returns Heatmap](assets/monthly_returns_heatmap.png)
 
 ---
 
@@ -336,7 +339,9 @@ Market Regime: BULLISH (Nifty 500 above 200 SMA)
 ```text
 systematic-equity-trading-platform/
 ├── assets/
-│   └── dashboard_mockup.png  # Generated dashboard banner preview
+│   ├── cumulative_returns.png       # Backtest cumulative performance chart
+│   ├── monthly_returns_heatmap.png  # Monthly returns heatmap matrix
+│   └── underwater_drawdown.png      # Strategy drawdown profile chart
 ├── data/
 │   ├── raw/
 │   ├── processed/          # Parquet datasets and trade logs
