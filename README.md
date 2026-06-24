@@ -332,17 +332,36 @@ Generated using custom-styled FPDF layouts:
 ### 2. Daily Telegram Performance Audit
 Concise text broadcast dispatched automatically:
 ```text
-📊 SWING PORTFOLIO DAILY AUDIT - 2026-06-20
+📊 [PAPER TRADING] DAILY SWING PORTFOLIO REPORT
+Generated at: 2026-06-23 10:20:04 IST
 
-• Total Portfolio Value: Rs. 1,14,352.00
-• Cash Balance: Rs. 24,112.00 (21.08% weight)
-• Active Position Count: 2
+🌐 Market Regime: 🔴 BEARISH (Nifty 500 (^CRSLDX) is -0.1% to 200 SMA)
 
-Active Positions:
-1. RELIANCE.NS (18 Shares) | PnL: +Rs. 3,780.00 (+8.71%) [Scaled-Out]
-2. TCS.NS (12 Shares) | PnL: +Rs. 3,480.00 (+7.59%)
+💰 Portfolio Value: Rs. 136,903.01
+💵 Cash Allocation: Rs. 136,903.01 (100.0%)
+🚀 Daily PnL: Rs. -0.00 (-0.00%)
 
-Market Regime: BULLISH (Nifty 500 above 200 SMA)
+⏳ Periodic PnL Summary:
+• Weekly PnL: Rs. -0.00
+• Monthly PnL: Rs. -0.00
+
+📈 Current Stock Positions:
+• No active open positions (100% Cash)
+
+🛡️ Risk Management Metrics:
+• Current Drawdown: -13.44% (Days: 365d)
+• Max Historical DD: -20.22% (Duration: 365d)
+• Annualized Volatility: 16.77%
+• Sharpe Ratio: 0.32 | Calmar Ratio: 0.56
+• Recovery Factor: 1.15
+
+🎯 Strategy Performance Ratios:
+• Net Strategy CAGR: 11.29%
+• Win Rate: 64.1% (across 78 closed trades)
+• Avg Win/Loss %: +10.6% / -6.6%
+• Strategy Profit Factor: 2.13x
+• Win Expectancy: +4.43%
+• Total Frictions: Rs. 13,665.89 (13.67% Drag)
 ```
 
 ---
